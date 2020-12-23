@@ -1,0 +1,151 @@
+#main_header{
+  height: 90px;
+  line-height: 90px;
+  background-color: #fff;
+}
+#main_logo{
+  display: inline-block;
+  margin-left: 100px;
+}
+#main_logo p{
+  display: inline-block;
+  position: relative;
+  font-size: 35px;
+  padding-left: 5px;
+  font-weight: bold;
+  font-family: 'MuseoModerno', cursive;
+}
+#main_logo p:before{
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: -60px;
+  width: 60px;
+  height: 60px;
+  background-image: url('../img/logo/logo.png');
+}
+
+#main_gnb{
+  overflow: hidden;
+  float: right;
+}
+#main_gnb > ul{
+  overflow: hidden;
+}
+#main_gnb > ul > li{
+  float: left;
+}
+#main_gnb > ul > li > a{
+  margin-right: 20px;
+}
+#main_gnb > ul > li > button{
+  margin-right: 50px;
+  line-height: 1;
+}
+
+/* common_sect */
+.common_sect > p{
+  position: relative;
+  font-size: 24px;
+  font-family: 'MuseoModerno', cursive;
+  font-weight: bold;
+  text-align: center;
+}
+
+.common_sect > p > span{
+  border-bottom: 1px solid #124b5f;
+}
+
+
+/* 버튼 공통 스타일*/
+.common_btn{
+  background: #124b5f;
+  transition: .5s;
+}
+.common_btn > a{
+  color: #fff;
+  transition: .5s;
+}
+.common_btn.s_type{
+  border-radius: 20px;
+  width: 200px;
+  height: 40px;
+}
+.common_btn.m_type{
+  border-radius: 25px;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+}
+.common_btn.l_type{
+  border-radius: 25px;
+  width: 350px;
+  height: 50px;
+  font-size: 18px;
+}
+.common_btn:hover{
+  background: #fff;
+  border: 1px solid #124b5f;
+}
+.common_btn:hover > a{
+  color: #124b5f;
+}
+
+
+
+/* footer */
+
+#main_footer{
+  background: #fff;
+  margin: 0 auto;
+}
+#main_footer .footer_top{
+  display: flex;
+  padding: 50px;
+}
+#main_footer .footer_top .column{
+  flex: 25%;
+  flex-wrap: wrap;
+  padding: 0 80px;
+}
+#main_footer .footer_top .column a img{
+  width: 30px;
+  height: 30px;
+  margin: 10px 20px 0 0;
+  transition: .5s;
+}
+#main_footer .footer_top .column a:hover img{
+  opacity: .8;
+}
+#main_footer .footer_top .column.list ul li{
+  padding: 10px 0;
+  margin-left: 30px;
+  position: relative;
+}
+#main_footer .footer_top .column.list ul li:first-child{
+  padding: 0 0 10px ;
+}
+#main_footer .footer_top .column.list ul li:before{
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: -30px;
+  background: url('../img/footer/footprint.png') no-repeat;
+  background-size: cover;
+  transition: .5s;
+}
+#main_footer .footer_top .column.list ul li:hover:before{
+  opacity: .8;
+}
+
+#main_footer .footer_top .column.list ul li:hover a{
+  color: #124b5f;
+
+}
+#main_footer .footer_bottom{
+  background: #fff;
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid #124b5f;
+}

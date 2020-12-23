@@ -1,0 +1,295 @@
+/* section 공통스타일*/
+.common_sect{
+  width: 100%;
+  height: 700px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.common_sect .t_wrap p{ font-size: 18px;}
+
+
+/* main_banner*/
+#main_banner{
+  position: relative;
+  width: 100%;
+  background-image: url('../img/main/main_banner.png');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+#main_banner .t_wrap{
+  position: absolute;
+  top: 200px;
+  left: 230px;
+}
+#main_banner .t_wrap p{
+  width: 600px;
+  margin: 30px 0;
+}
+#main_banner .t_wrap button{
+  display: inline-block;
+}
+#main_banner .t_wrap button:nth-of-type(1){
+  margin-right: 15px;
+}
+
+/* first section*/
+
+#first_section{
+  position: relative;
+  background-image: url('../img/bg/about_back.png');
+  padding: 50px 0;
+}
+#first_section .content_wrap{
+  position: relative;
+}
+#first_section .content_wrap > p{
+  text-align: center;
+  font-weight: bold;
+}
+#first_section .content_wrap .content{
+ width: 100%;
+ height: 700px;
+ overflow: hidden;
+ position: relative;
+}
+#first_section .content_wrap .content .t_wrap{
+ position: absolute;
+ width: 600px;
+ height: 500px;
+ top: 100px;
+ left: 230px;
+}
+
+#first_section .content_wrap .content .t_wrap > p{
+  margin: 30px 0;
+}
+
+#first_section .content_wrap .content .item{
+  position: absolute;
+  width: 600px;
+  height: 500px;
+  top: 50px;
+  right: 230px;
+  background: url('../img/main/dog01.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+/* second section */
+#second_section{
+  position: relative;
+  background-image: url('../img/bg/fact_back.png');
+  background-size: contain;
+  background-color: rgba(200, 231, 226, .5);
+  padding: 50px 0;
+}
+#second_section .content_wrap{
+  position: relative;
+}
+#second_section .content_wrap > p{
+  font-weight: bold;
+  text-align: center;
+}
+#second_section .content_wrap > h2{
+  text-align: center;
+  margin: 30px 0;
+}
+#second_section .content_wrap .content{
+  width: 90%;
+  margin: 0 auto;
+}
+#second_section .content_wrap .content .i_wrap #first_row, #second_section .content_wrap .content .i_wrap #second_row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 70px;
+}
+/*common item 공통스타일*/
+#second_section .content_wrap .content .i_wrap .common_item{
+  width: 300px;
+}
+#second_section .content_wrap .content .i_wrap .item{
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#second_section .content_wrap .content .i_wrap h3{
+  font-size: 18px;
+  margin: 10px 0;
+}
+#second_section .content_wrap .content .i_wrap p{
+  font-size: 16px;
+  word-break: break-all;
+}
+
+#second_section #first_row #first_item .item{
+  background-image: url('../img/icon/fact01.png');
+}
+#second_section #first_row #second_item .item{
+  background-image: url('../img/icon/fact02.png');
+}
+#second_section #first_row #third_item .item{
+  background-image: url('../img/icon/fact03.png');
+}
+#second_section #second_row #first_item .item{
+  background-image: url('../img/icon/fact04.png');
+}
+#second_section #second_row #second_item .item{
+  background-image: url('../img/icon/fact05.png');
+}
+#second_section #second_row #third_item .item{
+  background-image: url('../img/icon/fact06.png');
+}
+
+/* third section */
+#third_section{
+  position: relative;
+  background-image: url('../img/bg/service_back.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 50px 0;
+}
+#third_section > p{
+  text-align: center;
+  font-weight: bold;
+}
+#third_section >.content_wrap{
+  position: relative;
+  height: 600px;
+}
+#third_section >.content_wrap .content{
+}
+#third_section >.content_wrap .content .item{
+  position: absolute;
+  top: 80px;
+  left: 230px;
+  width: 600px;
+  height: 500px;
+  background: url('../img/main/dog02.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#third_section >.content_wrap .t_wrap{
+  position: absolute;
+  top: 120px;
+  right: 230px;
+  width: 600px;
+  height: 500px;
+}
+#third_section >.content_wrap .t_wrap > p{
+  margin: 30px 0;
+}
+
+/* fourth section */
+#fourth_section{
+  position: relative;
+  background-image: url('../img/bg/fact_back.png');
+  background-size: contain;
+  background-color: rgba(200, 231, 226, .5);
+  padding: 50px 0;
+}
+#fourth_section > p{
+  text-align: center;
+  font-weight: bold;
+}
+#fourth_section .content_wrap{
+  position: relative;
+}
+#fourth_section .content_wrap .content{
+  position: relative;
+  height: 600px;
+  padding: 50px 0;
+}
+#fourth_section .content_wrap .content .t_wrap{
+  position: absolute;
+  height: 500px;
+  left: 230px;
+  top: 120px;
+}
+#fourth_section .content_wrap .content .t_wrap p{
+  display: block;
+  margin: 15px 0 30px;
+  width: 700px;
+}
+#fourth_section .content_wrap .content .t_wrap input{
+  display: block;
+  width: 700px;
+  border-bottom: 1px solid #124b5f;
+  padding-bottom: 5px;
+}
+#fourth_section .content_wrap .content .t_wrap input[type=text]::placeholder{
+  font-size: 16px;
+}
+#fourth_section .content_wrap .content .t_wrap h2:nth-of-type(2){
+  margin: 80px 0 20px;
+}
+
+#fourth_section .content_wrap .content .item{
+  position: absolute;
+  right: 230px;
+  width: 600px;
+  height: 600px;
+  bottom: -15px;
+  background: url('../img/main/dog03.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+
+/* animation */
+
+.common_sect#main_banner.active .t_wrap{
+  animation: slideLeft 1s ease-in-out alternate;
+}
+.common_sect#first_section.active .item{
+  animation: slideRight 1s ease-in-out alternate;
+}
+.common_sect#second_section.active .common_item{
+  animation: slideTop 1s ease-in-out alternate;
+}
+.common_sect#third_section.active .item{
+  animation: slideLeft 1s ease-in-out alternate;
+}
+.common_sect#fourth_section.active .item{
+  animation: slideRight 1s ease-in-out alternate;
+}
+
+
+
+@keyframes slideLeft {
+  from{ opacity: 0.1; left: 180px;}
+    to{ opacity: 1; left: normal;}
+}
+@keyframes slideRight {
+  from{ opacity: 0.1; right: 180px;}
+    to{ opacity: 1; right: normal;}
+}
+@keyframes slideTop {
+  from{ opacity: 0.1; margin-top: -50px;}
+    to{ opacity: 1; margin-top: normal;}
+}
+
+
+/* media query area */
+
+@media screen and (max-width: 1700px){
+  #main_banner .t_wrap{ left: 180px;}
+  .common_sect .content_wrap .content .t_wrap h2,#second_section .content_wrap h2{ font-size: 35px;}
+  .common_sect .t_wrap p{ font-size: 16px;}
+  #first_section .content_wrap .content .t_wrap{ left: 180px;}
+  #first_section .content_wrap .content .item{ right: 180px;}
+  #third_section .content_wrap .content .t_wrap{ right: 180px;}
+  #third_section .content_wrap .content .item{ left: 100px;}
+  #fourth_section .content_wrap .content .t_wrap{ left: 180px;}
+  #fourth_section .content_wrap .content .item{ right: 180px;}
+  #fourth_section .content_wrap .content .t_wrap input{ width: 500px;}
+}
+@media screen and (max-width: 1500px){
+  .common_sect h1{ font-size: 45px;}
+}
