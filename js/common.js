@@ -1,5 +1,5 @@
-$(function(){
-  /* section offset top으로 class 추가 */
+/*$(function(){
+  /* section offset top으로 class 추가 
   var wHeight = $(window).height();// 100vh와 같음
   $(window).scroll(function(){
     var thisScrollTop = $(this).scrollTop();
@@ -11,4 +11,4 @@ $(function(){
       }
     });
   });
-});
+});*/
